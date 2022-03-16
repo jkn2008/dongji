@@ -56,7 +56,7 @@
 	"dtUrlNameR": "",
 	"playUrl": "https://www.zj883.com/vodplay/{playUrl}.html",
 	"playUa": "",
-	"searchUrl": "https://www.zj883.com/vodsearch/-------------.html?wd={wd}&submit=",
+	"searchUrl": "http://www.zj883.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
 	"scVodNode": "json:list",
 	"scVodName": "name",
 	"scVodId": "id",
