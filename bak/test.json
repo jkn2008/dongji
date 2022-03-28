@@ -2795,8 +2795,8 @@
       "api": "http://51smt4.xyz/api.php/provide/vod/"
     },
     {
-      "key": "*玖玖资源",
-      "name": "*玖玖资源",
+      "key": "*玖玖资源1",
+      "name": "*玖玖资源1",
       "type": 0,
       "api": "http://99zywcj.com/inc/sapi.php?ac=videolist"
     },
@@ -2813,8 +2813,8 @@
       "api": "http://lsnzxcj.com/inc/sapi.php"
     },
     {
-      "key": "*老鸭福利",
-      "name": "*老鸭福利",
+      "key": "*老鸭福利1",
+      "name": "*老鸭福利1",
       "type": 0,
       "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml"
     },
@@ -2879,8 +2879,8 @@
       "api": "https://bttcj.com/inc/sapi.php"
     },
     {
-      "key": "*探探资源",
-      "name": "*探探资源",
+      "key": "*探探资源1",
+      "name": "*探探资源1",
       "type": 0,
       "api": "https://apittzy.com/api.php/provide/vod/at/xml",
       "playUrl": "https://jiexi.ttbfp1.com/m3u8/?url="
