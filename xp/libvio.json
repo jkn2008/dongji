@@ -43,6 +43,15 @@
   "dtNameR": "",
   "dtImg": "//div[@class='stui-content__thumb']/a[contains(@class,'pic')]/img/@data-original",
   "dtImgR": "\\S+(http\\S+)",
+  "dtCate": "//p[@class='yac']/text()",
+  
+"dtCateR": "",
+"dtActor": "//p[@class='act']/span[contains(text(), '主演')]/parent::text()",
+"dtActorR": "",
+"dtDirector": "//p[@class='dir']/span[contains(text(), '导演')]/parent::text()",
+"dtDirectorR": "",
+"dtDesc": "//div[@class='tbox_js']/text()",
+
   "dtDescR": "",
   "dtFromNode": "//h3[contains(@class,'icon-iconfontplay2')]",                        
   "dtFromName": "/text()",
