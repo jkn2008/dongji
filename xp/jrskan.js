@@ -27,8 +27,8 @@
     "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
     "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
     "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
-    //"cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
-	"cateVodMark": "{vid}",
+    "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
+	//"cateVodMark": "{vid}",
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
     //"dtUrl": "{vid}",
@@ -52,7 +52,7 @@
 	// 播放地址节点
     "dtUrlSubNode": "/a",
 	// 播放地址
-    "dtUrlId": "/@data-play",
+    "dtUrlId": "@data-play",
     "dtUrlIdR": "/play/sm.html?id=(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/strong/text()",
