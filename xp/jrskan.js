@@ -33,35 +33,36 @@
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
     //"dtUrl": "{vid}",
 	"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
-	
 	// 详情节点
     "dtNode": "//div[@class='loc_player']",
-	  // 视频名
+	// 视频名
     "dtName": "/li[@class='lab_events']/span/text()",
 	// 视频图片
     "dtImg": "/li[@class='lab_team_home']/span/img/@src",
 	// 视频分类
     "dtCate": "/li[@class='lab_events']/span/text()",
     "dtActor": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
-	 // 播放源节点
-    "dtFromNode": "//div[@class='sub_channel']/a@data-play",
-	  // 播放源名称
-    "dtFromName": "//div[@class='sub_channel']/a/strong/text()",
-    //"dtFromNameR": "(\\S+) mp4\\S+",
+	// 播放源节点
+    "dtFromNode": "//div[@class='sub_channel']/a/strong",
+	// 播放源名称
+    "dtFromName": "/text()",
+    "dtFromNameR": "",
 	// 播放列表节点
-    "dtUrlNode": "//div[@class='sub_channel']/a@data-play",
-	 // 播放地址节点
-    "dtUrlSubNode": "//div[@class='sub_channel']/a/strong/text()",
-	  // 播放地址
-    "dtUrlId": "@data-clipboard-text",
-    //"dtUrlIdR": "\\S+/(\\d+).html",
+    "dtUrlNode": "//div[@class='sub_channel']",
+	// 播放地址节点
+    "dtUrlSubNode": "/a",
+	// 播放地址
+    "dtUrlId": "/@data-play",
+    "dtUrlIdR": "/play/sm.html?id=(\\d+)&id2=",
 	// 剧集名称
-    "dtUrlName": "/text()",
+    "dtUrlName": "/strong/text()",
     "dtUrlNameR": "",
+	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
-    "playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
-    
+    //"playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
+    "playUrl": "http://play.sportsteam365.com/play/sm.html?id={playUrl}&id2=",
+        
     "playUa": "",
 	
     "searchUrl": "http://www.jrskan.com?key={wd}",
