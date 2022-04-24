@@ -10,7 +10,7 @@
     "homeVodNode": "//ul[@data-stype='zqlq']",
 	// 首页推荐视频的名称
     //"homeVodName": "/li[@class='lab_events']/span/text()",
-	"homeVodName": "'123',concat(/li[@class='lab_events']/span/text()"),
+	"homeVodName": "concat('123',/li[@class='lab_events']/span/text()),
 	// 首页推荐视频的id
     "homeVodId": "/li[@class='lab_channel']/a[1]/@href",
 	// 二次处理正则
