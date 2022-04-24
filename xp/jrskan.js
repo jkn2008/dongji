@@ -4,14 +4,6 @@
     "homeUrl": "http://www.jrskan.com/",
     "cateManual": {
         "华语高清": "1",
-        "日韩精选": "2",
-        "欧美MV": "3",
-        "高清现场": "4",
-        "影视MV": "5",
-        "夜店现场": "6",
-        "车模视频": "7",
-        "热舞视频": "8",
-        "美女写真": "9",
         "美女打碟": "10"
     },
 	
@@ -29,17 +21,19 @@
     "homeVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
 	
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
-    "cateUrl": "https://www.kuqimv.com/play/{cateId}_{catePg}.html",
+    "cateUrl": "http://www.jrskan.com/",
 	  // 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//div[@class='mv_list']/li",
-    "cateVodName": "/div[@class='name']/a/@title",
-    "cateVodId": "/div[@class='name']/a/@href",
-    "cateVodIdR": "/play/(\\d+).html",
-    "cateVodImg": "/div[@class='pic']/a/img/@src",
-    "cateVodMark": "concat(//div[@class='time']/text(),'-',//div[@class='singer']/a/text())",
+	"cateVodNode": "//ul[@data-stype='zqlq']",
+    "cateVodName": "/li[@class='lab_events']/span/text()",
+    "cateVodId": "/li[@class='lab_channel']/a/@href",
+    //"cateVodIdR": "/play/(\\d+).html",
+    "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
+    "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
-    "dtUrl": "https://www.kuqimv.com/play/{vid}.html",
+    //"dtUrl": "https://www.kuqimv.com/play/{vid}.html",
+	"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
+	
 	// 详情节点
     "dtNode": "//body",
 	  // 视频名
