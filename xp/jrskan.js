@@ -25,7 +25,8 @@
     "cateUrl": "http://www.jrskan.com/",
 	  // 同上面的homeVod字段 分类列表中的视频信息
 	"cateVodNode": "//ul[@data-stype='zqlq']",
-    "cateVodName": "/li[@class='lab_events']/span/text()",
+    //"cateVodName": "/li[@class='lab_events']/span/text()",
+    "cateVodName": "concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text())",
     "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
     "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
 	//"cateVodIdR": "\\S+/(\\d+).html",
@@ -68,8 +69,8 @@
     "dtUrlNameR": "",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
-    //"playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
+    //"playUrl":"http://play.sportsteam333.com/play/{playUrl}",
+    //"playUrl":"http://play.sportsteam666.com/play/{playUrl}",
     "playUrl": "http://play.sportsteam365.com/play/{playUrl}",
     //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36", 
     //"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
