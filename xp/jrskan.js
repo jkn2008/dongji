@@ -11,9 +11,9 @@
 	// 首页推荐视频的名称
     "homeVodName": "/li[@class='lab_events']/span/text()",
 	// 首页推荐视频的id
-    "homeVodId": "/li[@class='lab_channel']/a/@href",
+    "homeVodId": "/li[@class='lab_channel']/a[1]/@href",
 	// 二次处理正则
-    //"homeVodIdR": "/play/(\\d+).html",
+    "cateVodIdR": "http://play.sportsteam365.com/play/play/steam(\\d+).html",
 	// 首页推荐视频的图片
     "homeVodImg": "/li[@class='lab_team_home']/span/img/@src",
 	// 首页推荐视频的简介
