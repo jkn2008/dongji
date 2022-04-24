@@ -53,7 +53,8 @@
     "dtUrlSubNode": "//div[@class='sub_channel']/a/strong/text()",
 	  // 播放地址
     "dtUrlId": "@data-clipboard-text",
-    "dtUrlIdR": "\\S+/(\\d+).html",
+    //"dtUrlIdR": "\\S+/(\\d+).html",
+"dtUrlIdR":"http://play.sportsteam365.com/play/sm.html?id=35&id2=",
 	// 剧集名称
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
