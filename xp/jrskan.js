@@ -3,7 +3,8 @@
     "ua": "",
     "homeUrl": "http://www.jrskan.com/",
     "cateManual": {
-        "体育直播": "1"
+        "华语高清": "1",
+        "美女打碟": "10"
     },
 	
 	// 首页推荐视频的节点
@@ -61,11 +62,11 @@
     "playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
     "playUa": "",
 	
-    //"searchUrl": "http://www.jrskan.com?key={wd}",
-    //"scVodNode": "//div[@class='play_xg']/li",
-    //"scVodName": "//div[@class='name']/a/@title",
-    //"scVodId": "//div[@class='name']/a/@href",
-    //"scVodIdR": "/play/(\\d+).html",
-    //"scVodImg": "//div[@class='pic']/a/img/@src",
-    //"scVodMark": ""
+    "searchUrl": "http://www.jrskan.com?key={wd}",
+    "scVodNode": "//div[@class='play_xg']/li",
+    "scVodName": "//div[@class='name']/a/@title",
+    "scVodId": "//div[@class='name']/a/@href",
+    "scVodIdR": "/play/(\\d+).html",
+    "scVodImg": "//div[@class='pic']/a/img/@src",
+    "scVodMark": ""
 }
