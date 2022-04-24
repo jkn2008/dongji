@@ -54,12 +54,13 @@
 	  // 播放地址
     "dtUrlId": "@data-clipboard-text",
     //"dtUrlIdR": "\\S+/(\\d+).html",
-"dtUrlIdR":"http://play.sportsteam365.com/play/sm.html?id=35&id2=",
 	// 剧集名称
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
+    //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
+    "playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
+    
     "playUa": "",
 	
     "searchUrl": "http://www.jrskan.com?key={wd}",
