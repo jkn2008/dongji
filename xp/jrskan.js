@@ -24,7 +24,9 @@
     "cateUrl": "http://www.jrskan.com/",
 	  // 同上面的homeVod字段 分类列表中的视频信息
 	"cateVodNode": "//ul[@data-stype='zqlq']",
-    "cateVodName": "/li[@class='lab_events']/span/text()",
+    //"cateVodName": "/li[@class='lab_events']/span/text()",
+    "cateVodName": "concat('123',/li[@class='lab_events']/span/text())",
+    
     "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
     "cateVodIdR": "http://play.sportsteam365.com/play/play/steam(\\d+).html",
     "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
