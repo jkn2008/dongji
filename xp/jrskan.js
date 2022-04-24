@@ -42,8 +42,12 @@
 	// 视频图片
     "dtImg": "/li[3]/span/img/@src",
 	// 视频分类
-    "dtCate": "/li[3]/strong/text()",
-    "dtActor": "/li[5]/strong/text()",
+    "dtCate": "/li[1]/span/text()",
+    //演员
+    "dtActor": "/li[1]/span/text()",
+    // 视频简介
+    "dtDesc": "concat(/li[3]/strong/text(),'-',/li[5]/strong/text()",
+	
 	
 	// 播放源节点
     "dtFromNode": "//div[@class='sub_channel']/a/strong",
@@ -66,8 +70,7 @@
     //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
     //"playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
     "playUrl": "http://play.sportsteam365.com/play/{playUrl}",
-    //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
-	 
+    //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36", 
     //"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
 	
     "searchUrl": "http://www.jrskan.com?key={wd}",
