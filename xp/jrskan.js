@@ -13,9 +13,8 @@
 	// 首页推荐视频的id
     "homeVodId": "/li[@class='lab_channel']/a[1]/@href",
 	// 二次处理正则
-    //"cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
-	"cateVodIdR": "\\S+/(\\d+).html",
-	
+    "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+	//"cateVodIdR": "\\S+/(\\d+).html",
 	// 首页推荐视频的图片
     "homeVodImg": "/li[@class='lab_team_home']/span/img/@src",
 	// 首页推荐视频的简介
@@ -27,9 +26,8 @@
 	"cateVodNode": "//ul[@data-stype='zqlq']",
     "cateVodName": "/li[@class='lab_events']/span/text()",
     "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
-    //"cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
-	"cateVodIdR": "\\S+/(\\d+).html",
-	
+    "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+	//"cateVodIdR": "\\S+/(\\d+).html",
     "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
     "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
 	//"cateVodMark": "{vid}",
@@ -58,17 +56,16 @@
     "dtUrlSubNode": "/a",
 	// 播放地址
     "dtUrlId": "@data-play",
-    //"dtUrlIdR": "/play/sm.html?id=(\\d+)&id2=",
-	"dtUrlIdR": "\\S+/(\\d+)&id2=",
-	
+    "dtUrlIdR": "/play/(\\S+)&id2=",
+	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/strong/text()",
     "dtUrlNameR": "",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
-    "playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
-    //"playUrl": "http://play.sportsteam365.com/play/sm.html?id={playUrl}&id2=",
+    //"playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
+    "playUrl": "http://play.sportsteam365.com/play/{playUrl}&id2=",
         
     "playUa": "",
 	
