@@ -3,8 +3,7 @@
     "ua": "",
     "homeUrl": "http://www.jrskan.com/",
     "cateManual": {
-        "华语高清": "1",
-        "美女打碟": "10"
+        "体育直播": "1"
     },
 	
 	// 首页推荐视频的节点
@@ -35,23 +34,23 @@
 	"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
 	
 	// 详情节点
-    "dtNode": "//body",
+    "dtNode": "//div[@class='loc_player']",
 	  // 视频名
-    "dtName": "//div[@class='lei_info mt']/div[2]/h1/text()",
+    "dtName": "/li[@class='lab_events']/span/text()",
 	// 视频图片
-    "dtImg": "//div[@class='lei_info mt']/div[1]/img/@src",
+    "dtImg": "/li[@class='lab_team_home']/span/img/@src",
 	// 视频分类
-    "dtCate": "//div[@class='play_info']/li[3]/a/text()",
-    "dtActor": "//div[@class='play_info']/li[4]/a/text()",
+    "dtCate": "/li[@class='lab_events']/span/text()",
+    "dtActor": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
 	 // 播放源节点
-    "dtFromNode": "//div[@class='lei_title']/h1",
+    "dtFromNode": "//div[@class='sub_channel']/a@data-play",
 	  // 播放源名称
-    "dtFromName": "/text()",
-    "dtFromNameR": "(\\S+) mp4\\S+",
+    "dtFromName": "//div[@class='sub_channel']/a/strong/text()",
+    //"dtFromNameR": "(\\S+) mp4\\S+",
 	// 播放列表节点
-    "dtUrlNode": "//div[@class='down_sm mt']/p[2]",
+    "dtUrlNode": "//div[@class='sub_channel']/a@data-play",
 	 // 播放地址节点
-    "dtUrlSubNode": "/a",
+    "dtUrlSubNode": "//div[@class='sub_channel']/a/strong/text()",
 	  // 播放地址
     "dtUrlId": "@data-clipboard-text",
     "dtUrlIdR": "\\S+/(\\d+).html",
@@ -59,14 +58,14 @@
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl": "https://www.kuqimv.com/play/{playUrl}.html",
+    "playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
     "playUa": "",
 	
-    "searchUrl": "https://www.kuqimv.com/search.php?key={wd}",
-    "scVodNode": "//div[@class='play_xg']/li",
-    "scVodName": "//div[@class='name']/a/@title",
-    "scVodId": "//div[@class='name']/a/@href",
-    "scVodIdR": "/play/(\\d+).html",
-    "scVodImg": "//div[@class='pic']/a/img/@src",
-    "scVodMark": ""
+    //"searchUrl": "http://www.jrskan.com?key={wd}",
+    //"scVodNode": "//div[@class='play_xg']/li",
+    //"scVodName": "//div[@class='name']/a/@title",
+    //"scVodId": "//div[@class='name']/a/@href",
+    //"scVodIdR": "/play/(\\d+).html",
+    //"scVodImg": "//div[@class='pic']/a/img/@src",
+    //"scVodMark": ""
 }
