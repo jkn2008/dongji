@@ -9,7 +9,8 @@
 	// 首页推荐视频的节点
     "homeVodNode": "//ul[@data-stype='zqlq']",
 	// 首页推荐视频的名称
-    "homeVodName": "/li[@class='lab_events']/span/text()",
+    //"homeVodName": "/li[@class='lab_events']/span/text()",
+	"homeVodName": "concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text())",
 	// 首页推荐视频的id
     "homeVodId": "/li[@class='lab_channel']/a[1]/@href",
 	// 二次处理正则
@@ -46,7 +47,7 @@
     //演员
     "dtActor": "/li[1]/span/text()",
     // 视频简介
-    "dtDesc": "concat(/li[3]/strong/text(),'-',/li[5]/strong/text()",
+    "dtDesc": "concat(/li[3]/strong/text(),'-',/li[5]/strong/text())",
 	
 	
 	// 播放源节点
