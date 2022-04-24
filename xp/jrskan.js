@@ -33,18 +33,19 @@
     "dtUrl": "http://play.sportsteam365.com/play/steam476628.html",
 	//"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
 	
+    /*
 	// 详情节点
     "dtNode": "//div[@class='loc_player']",
-	  // 视频名
+	// 视频名
     "dtName": "/li[@class='lab_events']/span/text()",
 	// 视频图片
     "dtImg": "/li[@class='lab_team_home']/span/img/@src",
 	// 视频分类
     "dtCate": "/li[@class='lab_events']/span/text()",
     "dtActor": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
-	 // 播放源节点
+	// 播放源节点
     "dtFromNode": "//div[@class='sub_channel']/a@data-play",
-	  // 播放源名称
+	// 播放源名称
     "dtFromName": "//div[@class='sub_channel']/a/strong/text()",
     //"dtFromNameR": "(\\S+) mp4\\S+",
 	// 播放列表节点
@@ -59,6 +60,8 @@
     "dtUrlNameR": "",
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
+    */
+    
     "playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
     
     "playUa": "",
