@@ -56,7 +56,7 @@
     "dtUrlSubNode": "/a",
 	// 播放地址
     "dtUrlId": "@data-play",
-    "dtUrlIdR": "/play/(\\S+)&id2=",
+    "dtUrlIdR": "/play/(\\S+)",
 	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/strong/text()",
@@ -65,7 +65,7 @@
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
     //"playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
-    "playUrl": "http://play.sportsteam365.com/play/{playUrl}&id2=",
+    "playUrl": "http://play.sportsteam365.com/play/{playUrl}",
         
     "playUa": "",
 	
