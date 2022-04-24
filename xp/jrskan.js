@@ -31,7 +31,7 @@
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
     //"dtUrl": "https://www.kuqimv.com/play/{vid}.html",
-	"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
+	"dtUrl": "{vid}",
 	
 	// 详情节点
     "dtNode": "//div[@class='loc_player']",
