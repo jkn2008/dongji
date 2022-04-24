@@ -25,13 +25,13 @@
 	"cateVodNode": "//ul[@data-stype='zqlq']",
     "cateVodName": "/li[@class='lab_events']/span/text()",
     "cateVodId": "/li[@class='lab_channel']/a/@href",
-    //"cateVodIdR": "/play/(\\d+).html",
+    "cateVodIdR": "http://play.sportsteam365.com/play/play/steam(\\d+).html",
     "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
     "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
     //"dtUrl": "https://www.kuqimv.com/play/{vid}.html",
-	"dtUrl": "{vid}",
+	"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
 	
 	// 详情节点
     "dtNode": "//div[@class='loc_player']",
