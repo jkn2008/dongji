@@ -66,8 +66,9 @@
     //"playUrl": "http://play.sportsteam365.com/play/steam{playUrl}.html",
     //"playUrl": "http://play.sportsteam365.com/play/sm.html?id=35&id2=",
     "playUrl": "http://play.sportsteam365.com/play/{playUrl}",
-        
-    "playUa": "",
+    "playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+	 
+    //"playUa": "",
 	
     "searchUrl": "http://www.jrskan.com?key={wd}",
     "scVodNode": "//div[@class='play_xg']/li",
