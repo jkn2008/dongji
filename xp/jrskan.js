@@ -25,13 +25,13 @@
 	"cateVodNode": "//ul[@data-stype='zqlq']",
     "cateVodName": "/li[@class='lab_events']/span/text()",
     "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
-    "cateVodIdR": "http://play.sportsteam365.com/play/play/steam(\\d+).html",
+    //"cateVodIdR": "http://play.sportsteam365.com/play/play/steam(\\d+).html",
     "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
     //"cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
-	"cateVodMark": "/li[@class='lab_channel']/a[1]/@href",
+	"cateVodMark": "http://play.sportsteam365.com/play/play/steam(\\d+).html",
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
-    "dtUrl": "http://play.sportsteam365.com/play/steam476628.html",
+    "dtUrl": "{vid}",
 	//"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
 	
 	// 详情节点
