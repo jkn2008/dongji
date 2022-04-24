@@ -36,14 +36,14 @@
     //"dtUrl": "{vid}",
 	"dtUrl": "http://play.sportsteam365.com/play/steam{vid}.html",
 	// 详情节点
-    "dtNode": "//div[@class='loc_player']",
+    "dtNode": "//ul[@data-stype='zqlq']",
 	// 视频名
-    "dtName": "/li[@class='lab_events']/span/text()",
+    "dtName": "/li[1]/span/text()",
 	// 视频图片
-    "dtImg": "/li[@class='lab_team_home']/span/img/@src",
+    "dtImg": "/li[3]/span/img/@src",
 	// 视频分类
-    "dtCate": "/li[@class='lab_events']/span/text()",
-    "dtActor": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
+    "dtCate": "/li[3]/strong/text()",
+    "dtActor": "/li[5]/strong/text()",
 	
 	// 播放源节点
     "dtFromNode": "//div[@class='sub_channel']/a/strong",
