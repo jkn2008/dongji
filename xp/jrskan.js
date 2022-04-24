@@ -13,7 +13,9 @@
 	// 首页推荐视频的id
     "homeVodId": "/li[@class='lab_channel']/a[1]/@href",
 	// 二次处理正则
-    "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+    //"cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+	"cateVodIdR": "\\S+/(\\d+).html",
+	
 	// 首页推荐视频的图片
     "homeVodImg": "/li[@class='lab_team_home']/span/img/@src",
 	// 首页推荐视频的简介
@@ -25,7 +27,9 @@
 	"cateVodNode": "//ul[@data-stype='zqlq']",
     "cateVodName": "/li[@class='lab_events']/span/text()",
     "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
-    "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+    //"cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+	"cateVodIdR": "\\S+/(\\d+).html",
+	
     "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
     "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
 	//"cateVodMark": "{vid}",
@@ -42,6 +46,7 @@
 	// 视频分类
     "dtCate": "/li[@class='lab_events']/span/text()",
     "dtActor": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
+	
 	// 播放源节点
     "dtFromNode": "//div[@class='sub_channel']/a/strong",
 	// 播放源名称
@@ -53,7 +58,9 @@
     "dtUrlSubNode": "/a",
 	// 播放地址
     "dtUrlId": "@data-play",
-    "dtUrlIdR": "/play/sm.html?id=(\\d+)&id2=",
+    //"dtUrlIdR": "/play/sm.html?id=(\\d+)&id2=",
+	"dtUrlIdR": "\\S+/(\\d+)&id2=",
+	
 	// 剧集名称
     "dtUrlName": "/strong/text()",
     "dtUrlNameR": "",
