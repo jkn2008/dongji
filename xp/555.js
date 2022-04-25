@@ -57,8 +57,10 @@
     "dtActorR": "",
     "dtDirector": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
     "dtDirectorR": "",
-    "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::/text()",
-    "dtDescR": "",
+    //"dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
+    "dtDesc": "//span[contains(@class,'sketch content')]/text()",
+    
+	"dtDescR": "",
     
 	"dtFromNode": "//a[@data-toggle='tab' and contains(@href, 'playlist')]",
     "dtFromName": "/text()",
