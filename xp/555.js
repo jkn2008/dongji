@@ -19,8 +19,7 @@
         "电影": "1",
         "连续剧": "2",
         "综艺": "3",
-        "动漫": "4",
-        "纪录片": "91"
+        "动漫": "4"
     },
 	
     "homeVodNode": "//ul[contains(@class, 'myui-vodlist')]/li/div[contains(@class, 'myui-vodlist__box')]",
@@ -58,7 +57,7 @@
     "dtActorR": "",
     "dtDirector": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
     "dtDirectorR": "",
-    "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
+    "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/following-sibling::text()",
     "dtDescR": "",
     
 	"dtFromNode": "//a[@data-toggle='tab' and contains(@href, 'playlist')]",
