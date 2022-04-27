@@ -47,17 +47,17 @@
     "dtImg": "//div[@class='stui-content__thumb']/a[contains(@class,'pic')]/img/@data-original",
     "dtImgR": "\\S+(http\\S+)",
 	// 视频状态
-    "dtMark": "concat(//div[@class='stui-content__detail']/p[5]/text(),//div[@class='stui-content__detail']/p[5]/a/text())",
+    "dtMark": "//div[@class='stui-content__detail']/p[5]/a/text()",
     "dtMarkR": "",
     // 视频分类 修复
-    //"dtCate": "//div[@class='stui-content__detail']/p[1]/text()",
+    "dtCate": "//div[@class='stui-content__detail']/p[1]/text()",
     "dtCateR": "",
-    //"dtActor": "//div[@class='stui-content__detail']/p[2]/text(),3",
+    "dtActor": "//div[@class='stui-content__detail']/p[2]/text(),3",
     "dtActorR": "",
     "dtDirector": "concat(//div[@class='stui-content__detail']/p[3]/text(),'，豆瓣评分 ',//span[@class='douban']/text())",
     "dtDirectorR": "",
     // 视频简介 修复
-    //"dtDesc": "//span[@class='detail-content']/text()",
+    "dtDesc": "//span[@class='detail-content']/text()",
     "dtDescR": "",
 
     //播放源节点
