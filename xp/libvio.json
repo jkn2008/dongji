@@ -40,7 +40,7 @@
     "cateVodIdR": "/detail/(\\w+).html",
     "cateVodImg": "/@data-original",
     "cateVodImgR": "\\S+(http\\S+)",
-    "cateVodMark": "concat(/span[contains(@class,'pic-text')]/text(),'评分',/span[contains(@class,'pic-tag pic-tag-top')]/text())",
+    "cateVodMark": "concat(/span[contains(@class,'pic-text')]/text(),'-',/span[contains(@class,'pic-tag pic-tag-top')]/text())",
 
     "dtUrl": "https://www.libvio.com/detail/{vid}.html",
     "dtNode": "//div[contains(@class,'stui-pannel-box')]",
