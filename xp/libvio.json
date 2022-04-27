@@ -47,11 +47,11 @@
     "dtImg": "//div[@class='stui-content__thumb']/a[contains(@class,'pic')]/img/@data-original",
     "dtImgR": "\\S+(http\\S+)",
     // 视频分类 修复
-    "dtCate": "//div[@class='stui-content__detail']/h1/text()",
+    "dtCate": "//div[@class='stui-content__detail']/p[1]/text()",
     "dtCateR": "",
     "dtActor": "//div[@class='stui-content__detail']/p[2]/text()",
     "dtActorR": "",
-    "dtDirector": "//div[@class='stui-content__detail']/p[3]/text()",
+    "dtDirector": "concat(//div[@class='stui-content__detail']/p[3]/text()),'',//div[@class='stui-content__detail']/p[4]/text_content()",
     "dtDirectorR": "",
     // 视频简介 修复
     "dtDesc": "//span[@class='detail-content']/text()",
