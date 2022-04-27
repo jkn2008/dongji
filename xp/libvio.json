@@ -49,9 +49,9 @@
     // 视频分类 修复
     "dtCate": "//div[@class='stui-content__detail']/p[1]/text()",
     "dtCateR": "",
-    "dtActor": "//div[@class='stui-content__detail']/p[2]/text()",
+    "dtActor": "substring(//div[@class='stui-content__detail']/p[2]/text(),3)",
     "dtActorR": "",
-    "dtDirector": "concat(//div[@class='stui-content__detail']/p[3]/text()),'',//div[@class='stui-content__detail']/p[4]/text_content()",
+    "dtDirector": "concat(//div[@class='stui-content__detail']/p[3]/text()),'',//div[@class='stui-content__detail']/p[4]/text()",
     "dtDirectorR": "",
     // 视频简介 修复
     "dtDesc": "//span[@class='detail-content']/text()",
