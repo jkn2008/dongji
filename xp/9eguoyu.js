@@ -34,7 +34,7 @@
   "dtMarkR": "",
   "dtDirector": "//span[contains(text(), '导演：')]/following-sibling::a/text()",
   //"dtActor": "//span[contains(text(), '主演：')]/following-sibling::a[*]/text()",
-  "dtActor": "string(//span[contains(text(), '主演：')]/parent::p)",
+  "dtActor": "//span[contains(text(), '主演：')]/parent::p/string()",
   //"dtDesc": "//div[@class='col-pd text-collapse content']/p/text()",
   "dtDesc": "//span[contains(text(), '简介：')]/parent::p//text()",
   "dtFromNode": "//ul[@class='nav nav-tabs active']/li/a",
