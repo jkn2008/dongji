@@ -20,7 +20,7 @@
     "homeVodId": "/a[contains(@class, 'myui-vodlist__thumb')]/@href",
     "homeVodIdR": "/31kan/(\\S+).html",
     "homeVodImg": "/a[contains(@class, 'myui-vodlist__thumb')]/@data-original",
-    "homeVodMark": "/span[contains(@class, 'pic-text text-right')]/text()",
+    "homeVodMark": "//span[contains(@class,'pic-text text-right')]/text()",
 
     // 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "https://www.31kan.vip/vodshow/{cateId}--------{catePg}---.html",
@@ -29,7 +29,7 @@
     "cateVodId": "/a[contains(@class, 'myui-vodlist__thumb')]/@href",
     "cateVodIdR": "/31kan/(\\S+).html",
     "cateVodImg": "/a[contains(@class, 'myui-vodlist__thumb')]/@data-original",
-    "cateVodMark": "/span[contains(@class, 'pic-text text-right')]/text()",
+    "cateVodMark": "//span[contains(@class,'pic-text text-right')]/text()",
 
     "dtUrl": "https://www.31kan.vip/31kan/{vid}.html",
     "dtNode": "//div[contains(@class,'myui-content__thumb')]",
@@ -38,16 +38,20 @@
     "dtFromNode": "//div[contains(@class,'myui-panel_hd')]/div/ul[contains(@class,'nav nav-tabs active')]/li/a",
     "dtFromName": "/text()",
 
-    "dtCate": "//span[contains(text(), '分类')]/following-sibling::*/text()",
-    "dtYear": "//span[contains(text(), '年份')]/following-sibling::*/text()",
-    "dtArea": "//span[contains(text(), '地区')]/following-sibling::*/text()",
+    "dtCate": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '分类')]/following-sibling::*/text()",
+    "dtCateR": "",
+    "dtYear": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '年份')]/following-sibling::*/text()",
+    "dtYearR": "",
+    "dtArea": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '地区')]/following-sibling::*/text()",
     "dtAreaR": "",
-    // 视频状态
-    "dtMark": "//span[contains(text(), '更新')]/following-sibling::*/text()",
+    "dtMark": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '更新')]/following-sibling::*/text()",
     "dtMarkR": "",
-    "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
-    "dtActor": "//span[contains(text(), '主演')]/following-sibling::*/text()",
-    "dtDesc": "//span[contains(text(), '简介')]/parent::text()",
+    "dtActor": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '主演')]/following-sibling::*/text()",
+    "dtActorR": "",
+    "dtDirector": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
+    "dtDirectorR": "",
+    "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
+    "dtDescR": "",
 
     "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
     "dtUrlSubNode": "/li/a",
