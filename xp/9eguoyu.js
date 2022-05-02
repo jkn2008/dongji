@@ -35,7 +35,7 @@
   "dtDirector": "//span[contains(text(), '导演：')]/following-sibling::a/text()",
   "dtActor": "//span[contains(text(), '主演：')]/following-sibling::a[1]/text()",
   //"dtActor": "//span[contains(text(), '主演：')]/parent::p/string()",
-  "dtDesc": "//meta [@name='description']/@content",
+  "dtDesc": "//meta[@name='description']/@content",
   //"dtDesc": "//span[contains(text(), '简介：')]/parent::p//text()",
   "dtFromNode": "//ul[@class='nav nav-tabs active']/li/a",
   "dtFromName": "/text()",
