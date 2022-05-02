@@ -28,6 +28,22 @@
   "dtNameR": "",
   "dtImg": "//div[@class='col-xs-1']/div[@class='myui-content__thumb']/a/img/@data-original",
   "dtImgR": "",
+
+"dtCate": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '分类')]/following-sibling::*/text()",
+"dtCateR": "",
+"dtYear": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '年份')]/following-sibling::*/text()",
+"dtYearR": "",
+"dtArea": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '地区')]/following-sibling::*/text()",
+"dtAreaR": "",
+"dtMark": "",
+"dtMarkR": "",
+"dtActor": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '主演')]/following-sibling::*/text()",
+"dtActorR": "",
+"dtDirector": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
+"dtDirectorR": "",
+"dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
+"dtDescR": "",
+/*
   "dtCate": "//span[contains(text(), '分类：')]/following-sibling::*/text()",
   "dtYear": "//span[contains(text(), '年份：')]/following-sibling::*/text()",
   //"dtMark": "//span[@class='text-red']/text()",
@@ -38,6 +54,8 @@
   //"dtActor": "//span[contains(text(), '主演：')]/parent::p/string()",
   //"dtDesc": "//meta[@name='description']@content",
   "dtDesc": "//span[contains(text(), '简介：')]/parent::text()",
+*/
+
   "dtFromNode": "//ul[@class='nav nav-tabs active']/li/a",
   "dtFromName": "/text()",
   "dtFromNameR": "",
