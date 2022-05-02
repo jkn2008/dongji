@@ -38,18 +38,16 @@
     "dtFromNode": "//div[contains(@class,'myui-panel_hd')]/div/ul[contains(@class,'nav nav-tabs active')]/li/a",
     "dtFromName": "/text()",
 
-    "dtCate": "//span[contains(text(), '分类')]/following-sibling::a/text()",
-    "dtYear": "//span[contains(text(), '年份')]/following-sibling::a/text()",
-    // 视频地区
-    "dtArea": "//span[contains(text(), '地区')]/following-sibling::a/text()",
+    "dtCate": "//span[contains(text(), '分类')]/following-sibling::*/text()",
+    "dtYear": "//span[contains(text(), '年份')]/following-sibling::*/text()",
+    "dtArea": "//span[contains(text(), '地区')]/following-sibling::*/text()",
     "dtAreaR": "",
     // 视频状态
     "dtMark": "//span[contains(text(), '更新')]/following-sibling::*/text()",
     "dtMarkR": "",
-    "dtDirector": "//span[contains(text(), '导演')]/following-sibling::a/text()",
-    "dtActor": "//span[contains(text(), '主演')]/following-sibling::a/text()",
-    //"dtDesc": "//div[@class='col-pd text-collapse content']/p/text()",
-    "dtDesc": "//span[contains(text(), '简介')]/parent::p/text()",
+    "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
+    "dtActor": "//span[contains(text(), '主演')]/following-sibling::*/text()",
+    "dtDesc": "//span[contains(text(), '简介')]/parent::text()",
 
     "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
     "dtUrlSubNode": "/li/a",
