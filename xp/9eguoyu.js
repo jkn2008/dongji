@@ -43,18 +43,7 @@
 "dtDirectorR": "",
 "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
 "dtDescR": "",
-/*
-  "dtCate": "//span[contains(text(), '分类：')]/following-sibling::*/text()",
-  "dtYear": "//span[contains(text(), '年份：')]/following-sibling::*/text()",
-  //"dtMark": "//span[@class='text-red']/text()",
-  "dtMark": "//span[contains(text(), '更新：')]/following-sibling::*/text()",
-  
-  "dtDirector": "//span[contains(text(), '导演：')]/following-sibling::*/text()",
-  "dtActor": "//span[contains(text(), '主演：')]/following-sibling::*/text()",
-  //"dtActor": "//span[contains(text(), '主演：')]/parent::p/string()",
-  //"dtDesc": "//meta[@name='description']@content",
-  "dtDesc": "//span[contains(text(), '简介：')]/parent::text()",
-*/
+
 
   "dtFromNode": "//ul[@class='nav nav-tabs active']/li/a",
   "dtFromName": "/text()",
