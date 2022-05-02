@@ -30,13 +30,18 @@
     "cateVodIdR": "/31kan/(\\S+).html",
     "cateVodImg": "/a[contains(@class, 'myui-vodlist__thumb')]/@data-original",
     "cateVodMark": "//span[contains(@class,'pic-text text-right')]/text()",
-
+    // 详情页地址 用于获取详情页信息 及 播放列表和地址
     "dtUrl": "https://www.31kan.vip/31kan/{vid}.html",
-    "dtNode": "//div[contains(@class,'myui-content__thumb')]",
-    "dtName": "/a/@title",
-    "dtImg": "/a/img/@data-original",
-    "dtFromNode": "//div[contains(@class,'myui-panel_hd')]/div/ul[contains(@class,'nav nav-tabs active')]/li/a",
-    "dtFromName": "/text()",
+
+// 详情节点
+    //"dtNode": "//div[contains(@class,'myui-content__thumb')]",
+    //"dtName": "/a/@title",
+    //"dtImg": "/a/img/@data-original",
+    "dtNode": "//body",
+    "dtName": "//div[@class='myui-content__thumb']/a/@title",
+    "dtNameR": "",
+    "dtImg": "//div[@class='myui-content__thumb']/a/img/@data-original",
+    "dtImgR": "",
 
     "dtCate": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '分类')]/following-sibling::*/text()",
     "dtCateR": "",
@@ -53,6 +58,8 @@
     "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
     "dtDescR": "",
 
+    "dtFromNode": "//div[contains(@class,'myui-panel_hd')]/div/ul[contains(@class,'nav nav-tabs active')]/li/a",
+    "dtFromName": "/text()",
     "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
     "dtUrlSubNode": "/li/a",
     "dtUrlId": "@href",
