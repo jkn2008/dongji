@@ -35,7 +35,7 @@
 "dtYearR": "",
 "dtArea": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '地区')]/following-sibling::*/text()",
 "dtAreaR": "",
-"dtMark": "",
+"dtMark": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '更新')]/following-sibling::*/text()",
 "dtMarkR": "",
 "dtActor": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '主演')]/following-sibling::*/text()",
 "dtActorR": "",
