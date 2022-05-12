@@ -63,17 +63,17 @@
     "playUa": "",
 
     //"searchUrl": "http://www.lezhutv.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-	//修复搜索
+    //修复搜索
     "searchUrl": "http://www.lezhutv.com/search-pg-1-wd-{wd}.html",
     // 视频的节点
     "scVodNode": "//ul[@class='tbox_m']/li",
     // 视频的名称
-    "scVodName": "/[a1]/@title",
+    "scVodName": "/a/@title",
     // 播放地址
-    "scVodId": "/[a1]/@href",
+    "scVodId": "/a/@href",
     "scVodIdR": "/detail/(\\w+).html",
     // 视频的图片
-    "scVodImg": "/[a1]/@data-original",
+    "scVodImg": "/a/@data-original",
     // 视频的简介
-    "scVodMark": "/span/text()"
+    "scVodMark": "/a/span/text()"
 }
