@@ -62,7 +62,7 @@
 "playUa": "",
 
 //"searchUrl": "http://www.lezhutv.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-"searchUrl": "http://www.lezhutv.com/index.php/search-pg-1-{wd}",
+"searchUrl": "http://www.lezhutv.com/search-pg-1-{wd}.html",
 "scVodNode": "json:list",
 "scVodName": "name",
 "scVodId": "id",
