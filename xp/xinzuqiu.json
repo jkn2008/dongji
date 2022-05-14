@@ -50,9 +50,9 @@
 	
 	
 	// 播放源节点
-    "dtFromNode": "//div[@class='view']",
+    "dtFromNode": "//div[@class='view']/a",
 	// 播放源名称
-    "dtFromName": "/a[1]/text()",
+    "dtFromName": "/text()",
     "dtFromNameR": "",
 	// 播放列表节点
     "dtUrlNode": "//div[@class='view']",
