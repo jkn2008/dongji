@@ -36,17 +36,17 @@
     //"dtUrl": "{vid}",
 	"dtUrl": "http://365ball.com/play.html?id={vid}",
 	// 详情节点
-    "dtNode": "//div[@class='title-content']",
+    "dtNode": "//div[@class='title-content']/hi/a/img",
 	// 视频名
-    "dtName": "/text()",
+    "dtName": "/@alt",
 	// 视频图片
-    "dtImg": "/h1/a/img/@src",
+    "dtImg": "/@src",
 	// 视频分类
-    "dtCate": "/text()",
+    "dtCate": "/@alt",
     //演员
-    "dtActor": "/text()",
+    "dtActor": "/@alt",
     // 视频简介
-    "dtDesc": "/text()",
+    "dtDesc": "/@alt",
 	
 	
 	// 播放源节点
@@ -55,9 +55,9 @@
     "dtFromName": "/text()",
     "dtFromNameR": "",
 	// 播放列表节点
-    "dtUrlNode": "//div[@class='view']",
+    "dtUrlNode": "//body",
 	// 播放地址节点
-    "dtUrlSubNode": "/a",
+    "dtUrlSubNode": "//a[@target='_self']",
 	// 播放地址
     "dtUrlId": "@href",
     "dtUrlIdR": "http://365ball.com/play.html?id=66470&amp;lei=(\\S+)",
