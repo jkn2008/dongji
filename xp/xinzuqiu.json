@@ -60,14 +60,14 @@
     "dtUrlSubNode": "/a",
 	// 播放地址
     "dtUrlId": "@href",
-    "dtUrlIdR": "http://365ball.com/play.html?id=66491&lei=(\\S+)",
+    "dtUrlIdR": "http://365ball.com/play.html?id=(\\S+)",
 	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl":"hhttp://365ball.com/play.html?id=66491&lei={playUrl}",
+    "playUrl":"hhttp://365ball.com/play.html?id={playUrl}",
 	
     "searchUrl": "http://www.xinzuqiu.com?key={wd}",
     "scVodNode": "//div[@class='play_xg']/li",
