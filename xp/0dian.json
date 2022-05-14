@@ -6,7 +6,7 @@
     //"homeUrl": "http://jrsyyds.com/",
     
     "cateManual": {
-        "体育直播": "1"
+        "零点吧": "1"
     },
 	
 	// 首页推荐视频的节点
@@ -20,7 +20,7 @@
 	// 首页推荐视频的图片
     "homeVodImg": "//img[@width='300']/@src",
 	// 首页推荐视频的简介
-    "homeVodMark": "/a/text()",
+    "homeVodMark": "/a[1]/text()",
 	
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "http://jrszx.com/",
@@ -29,7 +29,7 @@
     "cateVodId": "/a/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
 	"cateVodImg": "//img[@width='300']/@src",
-    "cateVodMark": "/a/text()",
+    "cateVodMark": "/a[1]/text()",
 	//"cateVodMark": "{vid}",
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
