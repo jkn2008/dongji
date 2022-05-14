@@ -38,21 +38,21 @@
 	// 详情节点
     "dtNode": "//div[@class='title-content']",
 	// 视频名
-    "dtName": "/h1/text()",
+    "dtName": "/text()",
 	// 视频图片
     "dtImg": "/h1/a/img/@src",
 	// 视频分类
-    "dtCate": "/h1/text()",
+    "dtCate": "/text()",
     //演员
-    "dtActor": "/h1/text()",
+    "dtActor": "/text()",
     // 视频简介
-    "dtDesc": "/h1/text()",
+    "dtDesc": "/text()",
 	
 	
 	// 播放源节点
     "dtFromNode": "//div[@class='view']",
 	// 播放源名称
-    "dtFromName": "/a/text()",
+    "dtFromName": "/a[1]/text()",
     "dtFromNameR": "",
 	// 播放列表节点
     "dtUrlNode": "//div[@class='view']",
