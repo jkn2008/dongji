@@ -6,7 +6,7 @@
     //"homeUrl": "http://jrsyyds.com/",
     
     "cateManual": {
-        "体育直播": "1"
+        "零点吧": "1"
     },
 	
 	// 首页推荐视频的节点
@@ -23,7 +23,7 @@
     "homeVodMark": "/a/text()",
 	
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
-    "cateUrl": "http://www.jrskan.com/",
+    "cateUrl": "http://jrszx.com/",
 	"cateVodNode": "//div[@class='txtdiv']/parent::li",
     "cateVodName": "/div/text()",
     "cateVodId": "/a/@href",
