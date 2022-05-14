@@ -6,13 +6,11 @@
     //"homeUrl": "http://jrsyyds.com/",
     
     "cateManual": {
-        "零点吧": "1",
-        "零点吧2": "2"
-        
+        "零点吧": "1"
     },
 	
 	// 首页推荐视频的节点
-    "homeVodNode": "//li/div[@class='txtdiv']",
+    "homeVodNode": "//li[@class='topli']",
 	// 首页推荐视频的名称
     "homeVodName": "/div/text()",
 	// 首页推荐视频的id
@@ -26,7 +24,7 @@
 	
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "http://jrszx.com/",
-	"cateVodNode": "//li/div[@class='txtdiv']",
+	"cateVodNode": "//li[@class='topli']",
     "cateVodName": "/div/text()",
     "cateVodId": "/a/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
