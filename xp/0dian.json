@@ -6,7 +6,7 @@
     //"homeUrl": "http://jrsyyds.com/",
     
     "cateManual": {
-        "零点吧": "1"
+        "体育直播": "1"
     },
 	
 	// 首页推荐视频的节点
@@ -18,7 +18,7 @@
 	// 二次处理正则
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
 	// 首页推荐视频的图片
-    "homeVodImg": "",
+    "homeVodImg": "//img[@width='300']/@src",
 	// 首页推荐视频的简介
     "homeVodMark": "/a/text()",
 	
@@ -28,7 +28,7 @@
     "cateVodName": "/div/text()",
     "cateVodId": "/a/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
-    "cateVodImg": "",
+	"cateVodImg": "//img[@width='300']/@src",
     "cateVodMark": "/a/text()",
 	//"cateVodMark": "{vid}",
 	
