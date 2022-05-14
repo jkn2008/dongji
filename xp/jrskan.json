@@ -33,7 +33,7 @@
     "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
     "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
 	//"cateVodIdR": "\\S+/(\\d+).html",
-    "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
+    "cateVodImg": "/li[@class='lab_team_home']/span/img/@style",
     "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
 	//"cateVodMark": "{vid}",
 	
