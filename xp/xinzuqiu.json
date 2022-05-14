@@ -25,11 +25,11 @@
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "http://www.xinzuqiu.com/",
 	"cateVodNode":"//li[@data-time]",
-    "cateVodName": "/@label",
+    "cateVodName": "concat(/div[1]/text(),/div[2]/text())",
     "cateVodId":"/@id",
     //"cateVodIdR": "/vedio/shipin-(\\d+).html",
 	"cateVodImg": "/@id",
-    "cateVodMark": "/@label",
+    "cateVodMark": "/div[a]/a/text()",
 	//"cateVodMark": "{vid}",
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
