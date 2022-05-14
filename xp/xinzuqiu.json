@@ -50,24 +50,24 @@
 	
 	
 	// 播放源节点
-    "dtFromNode": "//div[@class='view']/a",
+    "dtFromNode": "//a[@class='activeSignal']",
 	// 播放源名称
     "dtFromName": "/text()",
     "dtFromNameR": "",
 	// 播放列表节点
-    "dtUrlNode": "//body",
+    "dtUrlNode": "//div[@class='view']",
 	// 播放地址节点
-    "dtUrlSubNode": "//a[@target='_self']",
+    "dtUrlSubNode": "/a",
 	// 播放地址
     "dtUrlId": "@href",
-    "dtUrlIdR": "http://365ball.com/play.html?id=66470&amp;lei=(\\S+)",
+    "dtUrlIdR": "http://365ball.com/play.html?id=66491&lei=(\\S+)",
 	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl":"http://365ball.com/play.html?id=66470&amp;lei={playUrl}",
+    "playUrl":"hhttp://365ball.com/play.html?id=66491&lei={playUrl}",
 	
     "searchUrl": "http://www.xinzuqiu.com?key={wd}",
     "scVodNode": "//div[@class='play_xg']/li",
