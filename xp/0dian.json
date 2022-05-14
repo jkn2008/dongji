@@ -1,7 +1,7 @@
 {
     "author": "dj",
     "ua": "",
-    "homeUrl": "http://www.0990.com/",
+    "homeUrl": "http://jrszx.com/",
     //"homeUrl": "http://jrsbxj.com/",
     //"homeUrl": "http://jrsyyds.com/",
     
@@ -10,21 +10,21 @@
     },
 	
 	// 首页推荐视频的节点
-    "homeVodNode": "//div[@class='txtdiv']/parent::li",
+    "homeVodNode": "//div[@class='txtdiv']/parent::",
 	// 首页推荐视频的名称
     "homeVodName": "/div/text()",
 	// 首页推荐视频的id
     "homeVodId": "/a/@href",
 	// 二次处理正则
-    "cateVodIdR": "/vedio/shipin-(\\d+).html",
+    "homeVodIdR": "/vedio/shipin-(\\d+).html",
 	// 首页推荐视频的图片
     "homeVodImg": "//img[@width='300']/@src",
 	// 首页推荐视频的简介
     "homeVodMark": "/a[1]/text()",
 	
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
-    "cateUrl": "http://www.0990.com/",
-	"cateVodNode": "//div[@class='txtdiv']/parent::li",
+    "cateUrl": "http://jrszx.com/",
+	"cateVodNode": "//div[@class='txtdiv']/parent::",
     "cateVodName": "/div/text()",
     "cateVodId": "/a/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
@@ -68,7 +68,11 @@
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     "playUrl":"http://play.sportsteam333.com/play/{playUrl}",
-
+    //"playUrl":"http://play.sportsteam666.com/play/{playUrl}",
+    //"playUrl": "http://play.sportsteam365.com/play/{playUrl}",
+    //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36", 
+    //"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+	
     "searchUrl": "http://www.jrskan.com?key={wd}",
     "scVodNode": "//div[@class='play_xg']/li",
     "scVodName": "//div[@class='name']/a/@title",
