@@ -29,8 +29,8 @@
     "cateVodId": "/a[1]/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
 	"cateVodImg": "/a[1]/@class",
-    //"cateVodMark": "/a[1]/text()",
-	"cateVodMark": "/a[1]/@href",
+    "cateVodMark": "/a[1]/text()",
+	//"cateVodMark": "/a[1]/@href",
 	
 	//"cateVodMark": "{vid}",
 	
@@ -52,17 +52,17 @@
 	
 	
 	// 播放源节点
-    "dtFromNode": "//div[@class='pmain2']",
+    "dtFromNode": "//body/a[@target='VEDIO']",
 	// 播放源名称
-    "dtFromName": "/text()",
+    "dtFromName": "/span/text()",
     "dtFromNameR": "",
 	// 播放列表节点
-    "dtUrlNode": "//div[@class='pmain2']",
+    "dtUrlNode": "//body",
 	// 播放地址节点
-    "dtUrlSubNode": "/a",
+    "dtUrlSubNode": "/a[@target='VEDIO']",
 	// 播放地址
     "dtUrlId": "@href",
-    //"dtUrlIdR": "/play/(\\S+)",
+    "dtUrlIdR": "http://play2.lookforball.com/(\\S+)",
 	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/span/text()",
