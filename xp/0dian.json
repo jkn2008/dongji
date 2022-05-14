@@ -10,7 +10,7 @@
     },
 	
 	// 首页推荐视频的节点
-    "homeVodNode": "//li[@class='topli']",
+    "homeVodNode": "//div[@class='txtdiv']/parent::",
 	// 首页推荐视频的名称
     "homeVodName": "/div/text()",
 	// 首页推荐视频的id
@@ -18,17 +18,17 @@
 	// 二次处理正则
     "homeVodIdR": "/vedio/shipin-(\\d+).html",
 	// 首页推荐视频的图片
-    "homeVodImg": "//img[@width='300']/@src",
+    "homeVodImg":  "/a[1]/@class",
 	// 首页推荐视频的简介
     "homeVodMark": "/a[1]/text()",
 	
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "http://jrszx.com/",
-	"cateVodNode": "//li[@class='topli']",
+	"cateVodNode": "//div[@class='txtdiv']/parent::",
     "cateVodName": "/div/text()",
     "cateVodId": "/a/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
-	"cateVodImg": "//img[@width='300']/@src",
+	"cateVodImg": "/a[1]/@class",
     "cateVodMark": "/a[1]/text()",
 	//"cateVodMark": "{vid}",
 	
