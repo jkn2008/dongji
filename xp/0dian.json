@@ -10,7 +10,7 @@
     },
 	
 	// 首页推荐视频的节点
-    "homeVodNode": "//div[@class='txtdiv']/parent::",
+    "homeVodNode": "//li/div[@class='txtdiv']",
 	// 首页推荐视频的名称
     "homeVodName": "/div/text()",
 	// 首页推荐视频的id
@@ -24,7 +24,7 @@
 	
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "http://jrszx.com/",
-	"cateVodNode": "//div[@class='txtdiv']/parent::",
+	"cateVodNode": "//li/div[@class='txtdiv']",
     "cateVodName": "/div/text()",
     "cateVodId": "/a/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
