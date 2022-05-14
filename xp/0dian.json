@@ -29,7 +29,9 @@
     "cateVodId": "/a[1]/@href",
     "cateVodIdR": "/vedio/shipin-(\\d+).html",
 	"cateVodImg": "/a[1]/@class",
-    "cateVodMark": "/a[1]/text()",
+    //"cateVodMark": "/a[1]/text()",
+	"cateVodMark": "/a[1]/@href",
+	
 	//"cateVodMark": "{vid}",
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
@@ -42,9 +44,9 @@
 	// 视频图片
     "dtImg": "/@class",
 	// 视频分类
-    "dtCate": "/5/text()",
+    "dtCate": "/h5/text()",
     //演员
-    "dtActor": "/5/text()",
+    "dtActor": "/h5/text()",
     // 视频简介
     "dtDesc": "/h5/text()",
 	
