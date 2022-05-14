@@ -18,7 +18,7 @@
 	// 二次处理正则
     //"homeVodIdR": "/vedio/shipin-(\\d+).html",
 	// 首页推荐视频的图片
-    "homeVodImg": "",
+    "homeVodImg": "//img[@alt='NBA直播']/@src",
 	// 首页推荐视频的简介
     "homeVodMark": "/@label",
 	
@@ -28,7 +28,7 @@
     "cateVodName": "/@label",
     "cateVodId":"/@id",
     //"cateVodIdR": "/vedio/shipin-(\\d+).html",
-	"cateVodImg": "",
+	"cateVodImg": "//img[@alt='NBA直播']/@src",
     "cateVodMark": "/@label",
 	//"cateVodMark": "{vid}",
 	
