@@ -6,7 +6,7 @@
     //"homeUrl": "http://jrsyyds.com/",
     
     "cateManual": {
-        "JR看": "1"
+        "DJ看": "1"
     },
 	
 	// 首页推荐视频的节点
@@ -50,6 +50,9 @@
     "dtCate": "/li[1]/span/text()",
     //演员
     "dtActor": "/li[1]/span/text()",
+    // 导演
+    "dtDirector": "concat('xxx -','Never underestimate the heart of a champion! ')",
+    "dtDirectorR": "",
     // 视频简介
     "dtDesc": "concat(/li[3]/strong/text(),'-',/li[5]/strong/text(),'-dj')",
 	
