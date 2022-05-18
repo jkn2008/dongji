@@ -3,7 +3,7 @@
 "ua": "",
 "homeUrl": "http://www.88kanqiu.cc/",
 "cateManual": {
-"DJ赛事直播": "1"
+"DJ看球": "1"
 },
 "homeVodNode": "//div[@class='row d-none d-lg-flex justify-content-between align-items-center vertical-center']",
 "homeVodName": "concat(/div[@class='col-md-4 text-right']/span/text(),'vs',/div[@class='col-md-4 text-left']/span/text())",
