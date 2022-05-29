@@ -335,5 +335,11 @@
         "cms.qdwght.com"
     ],
     "wallpaper": "https://picsum.photos/1080",
+    /*
     "spider": "https://hk1.monika.love/tvba/b/main/xm_20220527.txt"
+    */
+ "spider": "https://gitee.com/dongji2/mm/raw/master/bak/xm-jar_20220527.txt"
+
+
+    
 }
